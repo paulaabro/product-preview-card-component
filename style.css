@@ -100,7 +100,7 @@ button {
   color: hsl(0, 0%, 100%);
 }
 
-@media (min-width: 376px) {
+@media (min-width: 600px) {
   section {
     width: 600px;
     height: 450px;
@@ -142,7 +142,7 @@ button {
     width: 236px;
     border-radius: 8px;
     padding: 0 63px;
-    cursor:pointer;
+    cursor: pointer;
     transition: background-color 500ms ease;
   }
   button:hover {
