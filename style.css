@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
 
 body {
-  /* font-family: 'Fraunces', serif; */
   font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
   font-weight: 500;
 }
 
@@ -15,7 +15,7 @@ main {
   align-items: center;
 }
 
-section {
+.modal {
   width: 343px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
@@ -29,11 +29,7 @@ article {
   padding: 24px;
 }
 
-p {
-  color: hsl(228, 12%, 48%);
-}
-
-.category {
+h1 {
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
@@ -41,7 +37,7 @@ p {
   margin-bottom: 12px;
 }
 
-h1 {
+h2 {
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 32px;
@@ -97,7 +93,7 @@ button {
 }
 
 @media (min-width: 600px) {
-  section {
+  .modal {
     width: 600px;
     height: 450px;
     display: flex;
