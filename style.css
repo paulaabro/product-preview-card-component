@@ -8,9 +8,7 @@ body {
 
 main {
   width: 100vw;
-  min-width: 375px;
   height: 100vh;
-  min-height: 611px;
   background-color: hsl(30, 38%, 92%);
   display: flex;
   justify-content: center;
@@ -19,7 +17,6 @@ main {
 
 section {
   width: 343px;
-  height: 611px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
 }
@@ -101,4 +98,54 @@ button {
   line-height: 17px;
   font-weight: 700;
   color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 376px) {
+  section {
+    width: 600px;
+    height: 450px;
+    display: flex;
+  }
+
+  section > img:first-of-type {
+    display: none;
+  }
+
+  section > img:last-of-type {
+    width: 300px;
+    display: initial;
+    border-radius: 10px 0 0 10px;
+  }
+
+  article {
+    width: 300px;
+    padding: 32px;
+  }
+
+  .category {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin-bottom: 24px;
+  }
+
+  .description {
+    margin-bottom: 29px;
+  }
+
+  .prices {
+    margin-bottom: 30px;
+  }
+
+  button {
+    width: 236px;
+    border-radius: 8px;
+    padding: 0 63px;
+    cursor:pointer;
+    transition: background-color 500ms ease;
+  }
+  button:hover {
+    background-color: hsl(158, 42%, 18%);
+  }
 }
