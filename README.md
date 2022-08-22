@@ -22,7 +22,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 #### Desktop
 ![desktop](./readme-images/desktop.png)
 
-
 #### Desktop Hover
 ![desktop w/ hover](./readme-images/desktop-hover.png)
 
@@ -38,7 +37,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 3. Added the fonts
 4. Wrote CSS for Mobile
 5. Wrote CSS for Desktop
-6. Fixed some bugs
+6. Follow reviews suggestions
 
 ### Built with
 
@@ -53,4 +52,4 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@paulaabro](https://www.frontendmentor.io/profile/paulaabro)
