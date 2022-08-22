@@ -21,12 +21,8 @@ section {
   border-radius: 10px;
 }
 
-section > img:first-of-type {
+picture img {
   border-radius: 10px 10px 0 0;
-}
-
-section > img:last-of-type {
-  display: none;
 }
 
 article {
@@ -107,13 +103,7 @@ button {
     display: flex;
   }
 
-  section > img:first-of-type {
-    display: none;
-  }
-
-  section > img:last-of-type {
-    width: 300px;
-    display: initial;
+  picture img {
     border-radius: 10px 0 0 10px;
   }
 

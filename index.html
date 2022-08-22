@@ -13,8 +13,10 @@
   <body>
     <main>
       <section>
-        <img src="./images/image-product-mobile.jpg" alt="product mobile" />
-        <img src="./images/image-product-desktop.jpg" alt="product desktop" />
+        <picture>
+          <source media="(min-width: 600px)" srcset="./images/image-product-desktop.jpg" />
+          <img src="./images/image-product-mobile.jpg" alt="product" />
+        </picture>
         <article>
           <p class="category">Perfume</p>
 
