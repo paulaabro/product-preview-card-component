@@ -2,14 +2,14 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  color: hsl(228, 12%, 48%);
+  color: #6c7289;
   font-weight: 500;
 }
 
 main {
   width: 100vw;
   height: 100vh;
-  background-color: hsl(30, 38%, 92%);
+  background-color: #f2ebe3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ main {
 
 .modal {
   width: 343px;
-  background-color: hsl(0, 0%, 100%);
+  background-color: #fff;
   border-radius: 10px;
 }
 
@@ -42,7 +42,7 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
-  color: hsl(212, 21%, 14%);
+  color: #1c232b;
   margin-bottom: 16px;
 }
 
@@ -66,7 +66,7 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
-  color: hsl(158, 36%, 37%);
+  color: #3c8067;
 }
 
 .prices p:last-child {
@@ -78,7 +78,7 @@ h2 {
 button {
   width: 295px;
   height: 48px;
-  background-color: hsl(158, 36%, 37%);
+  background-color: #3c8067;
   border-radius: 8px;
 
   display: flex;
@@ -89,7 +89,7 @@ button {
   font-size: 14px;
   line-height: 17px;
   font-weight: 700;
-  color: hsl(0, 0%, 100%);
+  color: #fff;
 }
 
 @media (min-width: 600px) {
@@ -131,7 +131,8 @@ button {
     cursor: pointer;
     transition: background-color 500ms ease;
   }
+
   button:hover {
-    background-color: hsl(158, 42%, 18%);
+    background-color: #1b4133;
   }
 }
