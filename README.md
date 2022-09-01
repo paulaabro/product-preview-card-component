@@ -28,13 +28,13 @@ Users should be able to:
 ### Screenshots
 
 ## Mobile
-![mobile](readme-images/mobile.png)
+![mobile](readme-assets/mobile.png)
 
 ## Desktop
-![desktop](readme-images/desktop.png)
+![desktop](readme-assets/desktop.png)
 
 ## Desktop Active
-![desktop-active](readme-images/desktop-active.png)
+![desktop-active](readme-assets/desktop-active.png)
 
 ### Preview
 
